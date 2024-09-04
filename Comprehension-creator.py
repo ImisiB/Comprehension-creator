@@ -33,7 +33,6 @@ def main():
         word_replacement = input(str("Enter the word replacement: "))
         print()
         
-    
     if replace == "0":
         if user_works == "yes":
             print()
