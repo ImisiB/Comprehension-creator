@@ -26,28 +26,22 @@ def main():
     replace = input("If you want to replace a word, type; '1', but if you don't want to replace a word, type; '0'")
     
     if replace == "1":
-        string = "My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is ",user_favorite_food,"I do",user_work," for a living."
-        print(str(string))
+        string = r = ("My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is ",user_favorite_food,"I do",user_work," for a living. ")
+        print("My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is ",user_favorite_food,"I do",user_work," for a living. ")
         print()
         word_to_replace = input(str("Enter a word to replace: "))
         word_replacement = input(str("Enter the word replacement: "))
         print()
         
-    if replace == "0":
+    elif replace == "0":
         if user_works == "yes":
             print()
-            storage = ("My name is",user_name,". I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work," for a living. I am a web developer, i am a",user_worked, " web developer. I am a",user_working," in",user_worked) 
-            print(str(storage))
-        # else:
+            print("My name is",user_name,". I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work," for a living. I am a web developer, i am a",user_worked, " web developer. I am a",user_working," in",user_worked) 
+            
+        else:
             print("My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is ",user_favorite_food,"I do",user_work," for a living. I am a",user_worked, "web developer. I am a",user_working," in",user_worked)
     elif word_to_replace in string: 
-            word = str(string).replace(word_to_replace, word_replacement)
-            print(word)
-            # print("My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is ",user_favorite_food,"I do",user_work," for a living. I am a",user_worked, "web developer. I am a",user_working," in",user_worked)
-            
+            print(str(string(r)).replace(word_to_replace, word_replacement))
     elif word_to_replace not in string:
         print("       unknown word", string, "does not include", word_to_replace)
-    
-    # print("My name is",user_name,"I come from",user_info,". My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work," for a living. I am a web developer, i am a",user_worked, " web developer. I am a",user_working," in",user_worked)
-
 main()
