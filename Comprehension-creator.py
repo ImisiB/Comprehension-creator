@@ -92,6 +92,7 @@
 #         else:
 
 #             user_name = input("Enter your name: ")
+
 #             user_info = input("Where do you come from: ")
 #             user_favorite_color = input("What is your favorite color: ")
 #             user_favorite_food = input("What is your favorite food: ")
