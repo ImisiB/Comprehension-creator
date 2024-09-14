@@ -3,10 +3,10 @@ print("I AM GOING TO ASK SOME QUESTIONS AND YOU WILL HAVE TO ANSWER THEM.")
 print()
 
 def main():
-    user_name = input("Enter your name: ")
-    user_info = input("Where do you come from: ")
-    user_favorite_color = input("What is your favorite color: ")
-    user_favorite_food = input("What is your favorite food: ")
+    user_name = input("What is your name: ")
+    user_info = input("Where do you come from? : ")
+    user_favorite_color = input("What is your favorite color? : ")
+    user_favorite_food = input("What is your favorite food? : ")
     user_work = input("What do you do for a living? :")
     user_works = input("Are you a web developer? ")
     
@@ -31,10 +31,10 @@ def main():
                     print()
                     print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,".I do",user_work,"for a living." )
             else:           
-                    user_name = input("Enter your name: ")
-                    user_info = input("Where do you come from: ")
-                    user_favorite_color = input("What is your favorite color: ")
-                    user_favorite_food = input("What is your favorite food: ")
+                    user_name = input("What is your name? : ")
+                    user_info = input("Where do you come from? : ")
+                    user_favorite_color = input("What is your favorite color? : ")
+                    user_favorite_food = input("What is your favorite food? : ")
                     user_work = input("What do you do for a living? :")
                     user_works = input("Are you a web developer? ")
                     if user_works == "yes" :
@@ -46,10 +46,10 @@ def main():
                         print()
                         print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work,"for a living." )
         else:
-            user_name = input("Enter your name: ")
-            user_info = input("Where do you come from: ")
-            user_favorite_color = input("What is your favorite color: ")
-            user_favorite_food = input("What is your favorite food: ")
+            user_name = input("What is your name: ")
+            user_info = input("Where do you come from? : ")
+            user_favorite_color = input("What is your favorite color? : ")
+            user_favorite_food = input("What is your favorite food? : ")
             user_work = input("What do you do for a living? :")
             user_works = input("Are you a web developer? ")
             if user_works == "yes" :
@@ -61,7 +61,6 @@ def main():
             else:
                 print()
                 print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work,"for a living." )
-
     else:
         print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,".I do",user_work,"for a living.")
         print()
