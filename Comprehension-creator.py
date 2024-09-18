@@ -104,6 +104,7 @@
 #                 print()
 #                 print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work,"for a living.I am a",user_worked,"web developer. I am a",user_working," in",user_worked )
 #             else:
+
 #                 print()
 #                 print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work,"for a living." )
 
