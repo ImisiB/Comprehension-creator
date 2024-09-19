@@ -108,7 +108,7 @@
 #                 print()
 #                 print("My name is",user_name,"I come from",user_info,".My favorite color is",user_favorite_color,".My favorite food is",user_favorite_food,"I do",user_work,"for a living." )
 
-# main()
+# main(
 
 while True:
     print("WELCOME TO THE CALCULATOR APP, WHAT SERVICE DO YOU WANT TO ACHIEVE?")
